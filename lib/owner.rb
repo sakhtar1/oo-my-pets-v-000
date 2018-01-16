@@ -54,13 +54,10 @@ class Owner
   end
 
   def sell_pets
-    if pets.empty?
       pets.each do |type, pets|
         mood = "nervous"
       end
-    else
-      mood = "happy"
-    end
+      @pets.clear
   end
 
   def list_pets

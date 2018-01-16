@@ -60,7 +60,7 @@ class Owner
       end
     else
       mood = "happy"
-      
+    end
   end
 
   def list_pets

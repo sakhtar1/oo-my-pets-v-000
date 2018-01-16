@@ -42,6 +42,7 @@ class Owner
   end
 
   def walk_dogs
+    walk_dog = happy
     if dog = walk_dog
        Dog.mood == "happy"
     else
